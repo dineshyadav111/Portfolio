@@ -1,0 +1,96 @@
+.resume {
+  width: 100%;
+  width: 100vw;
+  max-width: 65rem;
+  margin:0 auto;
+  text-align: center;   
+
+  scroll-margin-top: 3.5rem;   
+  padding: 3rem 1rem;          
+  box-sizing: border-box;
+}
+
+.resume-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #fff;
+
+}
+
+.resumeBox {
+  display: flex;
+  justify-content: center;   
+  align-items: flex-start;   
+  gap: 20px;
+  flex-wrap: wrap;           
+}
+
+.resumeBox-left,
+.resumeBox-right {
+  flex: 1;
+  min-width: 300px;
+  max-width: 400px;
+  background: rgb(50,50,50);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgb(0, 0, 0);
+  text-align: left;   
+  margin-top: 50px;
+}
+
+.resume-header {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.resume-para {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.81);
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+.resumeBox-right-ul {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.81);
+  line-height: 1.5;
+  margin-top: 10px;
+  padding-left: 20px;  /* indent bullet points */
+}
+
+.pdf-img {
+  width: 15px;
+  height: 15px;
+  margin-top: 5px;
+  object-fit: cover;
+  margin-right: 5px;
+}
+
+.resume-btn {
+  height: 40px;
+  width: 130px;
+  margin-top: 30px;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid yellow;
+  font-size: 12px;
+  text-align: center;
+  background: transparent;
+  cursor: pointer;
+}
+@media (max-width: 480px) {
+  .resume {
+    padding: 20px;
+    margin: 10px auto;
+  }
+
+  .resumeBox-left,
+  .resumeBox-right {
+    min-width: 100%;
+    max-width: 100%;
+  }
+}
