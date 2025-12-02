@@ -1,14 +1,14 @@
 import React from 'react'
 import './resume.css'
 import PDF_img from '../../assets/PDF_img.png';  
-import resumePDF from '../../assets/dinesh_resume.pdf';
+import resumePDF from '../../assets/RESUME_dinesh_1.pdf';
 
 const Resume = () => {
   
    const handlerdownload = () => {
     const link = document.createElement("a");
     link.href = resumePDF;
-    link.download = "RESUME_dinesh_final.pdf"; // rename if you want
+    link.download = "RESUME_dinesh_1.pdf"; // rename if you want
     link.click();
   };
   return (
